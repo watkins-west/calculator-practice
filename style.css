@@ -152,6 +152,11 @@ figcaption {
     display: none;
 }
 
+.peapod.active,
+.freshdirect.active,
+.amazon.active {
+    display: block;
+}
 
 /**
 * Remove  the  default margin on the H3
@@ -184,6 +189,16 @@ figcaption {
     flex-basis: 100%;
 }
 
+.cheap {
+    font-weight: 900;
+    color: crimson;
+    font-size: 1.2em;
+}
+
+.cheap:after {
+    font-family: FontAwesome;
+    content: " \f00c"
+}
 
 /*********************************************************************
   YOUR TABLET/DESKTOP STYLES GO HERE
